@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');
+
+/* Layout */
+body {
+  font-family: 'Bad Script';
+  background-image: url(https://images.unsplash.com/photo-1533902930455-0b07767e52b6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5d71790e7548c2382193dd917e9c0a22&auto=format&fit=crop&w=2850&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  color: white;
+  min-height: 100vh;
+}
+header,
+footer {
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 100vw;
+  position: fixed;
+}
+header {
+  top: 0;
+}
+footer {
+  bottom: 0;
+}
+main {
+  width: 75vw;
+  margin: 2rem auto;
+  padding: 8rem;
+}
+
+/* Notes */
+.note {
+  border: 1px solid #f9f9f9;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.note p {
+  margin: 0;
+}
+.button-remove-note {
+  padding: 1rem;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 0.125rem;
+  color: white;
+  cursor: pointer;
+}
+
+/* Note Form */
+.note-input,
+.note-button {
+  padding: 1rem;
+  font-size: 1rem;
+  border: 1px solid #f9f9f9;
+}
+.note-button {
+  background-color: rgba(255, 255, 255, 0.9);
+}
