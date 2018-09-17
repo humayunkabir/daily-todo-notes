@@ -26,7 +26,11 @@ class NoteForm extends Component {
           onChange={this.handleUserInput}
           value={this.state.newNoteContent}
         />
-        <button className="note-button" onClick={this.writeNote}>
+        <button
+          className="note-button"
+          onClick={this.writeNote}
+          disabled={this.state.newNoteContent === '' ? true : false}
+        >
           Add Note
         </button>
       </div>
